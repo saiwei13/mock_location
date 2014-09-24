@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+	
+<LinearLayout
+	xmlns:android="http://schemas.android.com/apk/res/android"
+	android:orientation="vertical"
+	android:layout_width="fill_parent"
+	android:layout_height="fill_parent"
+    >
+    
+    	<Button 
+		    android:id="@+id/bt_show_loc"
+		    android:layout_width="fill_parent"
+			android:layout_height="wrap_content" 
+			android:background="#FF0000"
+			android:text="显示loc文件"
+		    />
+	<LinearLayout
+		android:orientation="vertical"
+		android:layout_width="fill_parent"
+		android:layout_height="fill_parent"
+		android:layout_weight="1"
+		android:layout_marginBottom="23dip">
+		
+	    <View 
+	        android:layout_width="fill_parent"
+			android:layout_height="1dip"
+			android:background="#000000"
+	        />
+	    
+	    <!-- 当前路径 -->
+<!-- 	    <TextView 
+	        android:id="@+id/file_manager_currentfilepath"
+	        android:layout_width="fill_parent"
+			android:layout_height="wrap_content"
+			android:background="@color/general_list_back_color"
+			android:textColor="#000000"
+	        /> -->
+	    
+	    <View 
+	        android:layout_width="fill_parent"
+			android:layout_height="1dip"
+			android:background="#000000"
+	        />
+	    
+		<ListView
+			android:id="@+id/list_listactivity"
+			android:layout_width="fill_parent"
+			android:layout_height="fill_parent" 
+			android:dividerHeight="0.5dip"
+		/>
+		
+		
+
+	</LinearLayout>
+	
+	<Button 
+		    android:id="@+id/bt_ok"
+		    android:layout_width="fill_parent"
+			android:layout_height="wrap_content" 
+			android:background="#FF0000"
+			android:text="确定"
+		    />
+
+</LinearLayout>

@@ -1,21 +1,22 @@
 -- Merging decision tree log ---
 manifest
-ADDED from /home/chenwei/workspace/AndroidStudioProjects/mock_location/app/src/main/AndroidManifest.xml:17:1-86:12
+ADDED from /home/chenwei/workspace/AndroidStudioProjects/mock_location/app/src/main/AndroidManifest.xml:17:1-83:12
 	package
 		ADDED from /home/chenwei/workspace/AndroidStudioProjects/mock_location/app/src/main/AndroidManifest.xml:18:5-47
 		INJECTED from /home/chenwei/workspace/AndroidStudioProjects/mock_location/app/src/main/AndroidManifest.xml
 		INJECTED from /home/chenwei/workspace/AndroidStudioProjects/mock_location/app/src/debug/AndroidManifest.xml
 	android:versionName
-		ADDED from /home/chenwei/workspace/AndroidStudioProjects/mock_location/app/src/main/AndroidManifest.xml:20:5-30
+		ADDED from /home/chenwei/workspace/AndroidStudioProjects/mock_location/app/src/main/AndroidManifest.xml:20:5-32
+		ADDED from /home/chenwei/workspace/AndroidStudioProjects/mock_location/app/src/main/AndroidManifest.xml:20:5-32
 	android:versionCode
 		ADDED from /home/chenwei/workspace/AndroidStudioProjects/mock_location/app/src/main/AndroidManifest.xml:19:5-28
 		INJECTED from /home/chenwei/workspace/AndroidStudioProjects/mock_location/app/src/main/AndroidManifest.xml
+		ADDED from /home/chenwei/workspace/AndroidStudioProjects/mock_location/app/src/main/AndroidManifest.xml:19:5-28
 		INJECTED from /home/chenwei/workspace/AndroidStudioProjects/mock_location/app/src/debug/AndroidManifest.xml
 	xmlns:android
 		ADDED from /home/chenwei/workspace/AndroidStudioProjects/mock_location/app/src/main/AndroidManifest.xml:17:11-69
 uses-sdk
 ADDED from /home/chenwei/workspace/AndroidStudioProjects/mock_location/app/src/main/AndroidManifest.xml:22:5-24:41
-MERGED from /home/chenwei/workspace/AndroidStudioProjects/mock_location/app/src/main/AndroidManifest.xml:22:5-24:41
 MERGED from [com.android.support:support-v4:20.0.0] /home/chenwei/workspace/AndroidStudioProjects/mock_location/app/build/intermediates/exploded-aar/com.android.support/support-v4/20.0.0/AndroidManifest.xml:16:5-42
 	android:targetSdkVersion
 		ADDED from /home/chenwei/workspace/AndroidStudioProjects/mock_location/app/src/main/AndroidManifest.xml:24:9-38
@@ -27,22 +28,18 @@ MERGED from [com.android.support:support-v4:20.0.0] /home/chenwei/workspace/Andr
 		INJECTED from /home/chenwei/workspace/AndroidStudioProjects/mock_location/app/src/debug/AndroidManifest.xml
 uses-permission#android.permission.READ_EXTERNAL_STORAGE
 ADDED from /home/chenwei/workspace/AndroidStudioProjects/mock_location/app/src/main/AndroidManifest.xml:29:9-84
-MERGED from /home/chenwei/workspace/AndroidStudioProjects/mock_location/app/src/main/AndroidManifest.xml:29:9-84
 	android:name
 		ADDED from /home/chenwei/workspace/AndroidStudioProjects/mock_location/app/src/main/AndroidManifest.xml:29:26-81
 uses-permission#android.permission.WRITE_EXTERNAL_STORAGE
 ADDED from /home/chenwei/workspace/AndroidStudioProjects/mock_location/app/src/main/AndroidManifest.xml:30:5-81
-MERGED from /home/chenwei/workspace/AndroidStudioProjects/mock_location/app/src/main/AndroidManifest.xml:30:5-81
 	android:name
 		ADDED from /home/chenwei/workspace/AndroidStudioProjects/mock_location/app/src/main/AndroidManifest.xml:30:22-78
 uses-permission#android.permission.ACCESS_COARSE_LOCATION
 ADDED from /home/chenwei/workspace/AndroidStudioProjects/mock_location/app/src/main/AndroidManifest.xml:33:5-80
-MERGED from /home/chenwei/workspace/AndroidStudioProjects/mock_location/app/src/main/AndroidManifest.xml:33:5-80
 	android:name
 		ADDED from /home/chenwei/workspace/AndroidStudioProjects/mock_location/app/src/main/AndroidManifest.xml:33:22-78
 application
-ADDED from /home/chenwei/workspace/AndroidStudioProjects/mock_location/app/src/main/AndroidManifest.xml:37:5-84:19
-MERGED from /home/chenwei/workspace/AndroidStudioProjects/mock_location/app/src/main/AndroidManifest.xml:37:5-84:19
+ADDED from /home/chenwei/workspace/AndroidStudioProjects/mock_location/app/src/main/AndroidManifest.xml:37:5-81:19
 MERGED from [com.android.support:support-v4:20.0.0] /home/chenwei/workspace/AndroidStudioProjects/mock_location/app/build/intermediates/exploded-aar/com.android.support/support-v4/20.0.0/AndroidManifest.xml:17:5-19
 	android:label
 		ADDED from /home/chenwei/workspace/AndroidStudioProjects/mock_location/app/src/main/AndroidManifest.xml:40:9-41
@@ -54,7 +51,6 @@ MERGED from [com.android.support:support-v4:20.0.0] /home/chenwei/workspace/Andr
 		ADDED from /home/chenwei/workspace/AndroidStudioProjects/mock_location/app/src/main/AndroidManifest.xml:41:9-40
 activity#com.example.android.mocklocation.MainActivity
 ADDED from /home/chenwei/workspace/AndroidStudioProjects/mock_location/app/src/main/AndroidManifest.xml:44:9-58:20
-MERGED from /home/chenwei/workspace/AndroidStudioProjects/mock_location/app/src/main/AndroidManifest.xml:44:9-58:20
 	android:label
 		ADDED from /home/chenwei/workspace/AndroidStudioProjects/mock_location/app/src/main/AndroidManifest.xml:46:13-45
 	android:launchMode
@@ -83,14 +79,12 @@ ADDED from /home/chenwei/workspace/AndroidStudioProjects/mock_location/app/src/m
 		ADDED from /home/chenwei/workspace/AndroidStudioProjects/mock_location/app/src/main/AndroidManifest.xml:56:27-73
 activity#com.example.android.mocklocation.FileManager
 ADDED from /home/chenwei/workspace/AndroidStudioProjects/mock_location/app/src/main/AndroidManifest.xml:61:9-64:20
-MERGED from /home/chenwei/workspace/AndroidStudioProjects/mock_location/app/src/main/AndroidManifest.xml:61:9-64:20
 	android:label
 		ADDED from /home/chenwei/workspace/AndroidStudioProjects/mock_location/app/src/main/AndroidManifest.xml:63:13-45
 	android:name
 		ADDED from /home/chenwei/workspace/AndroidStudioProjects/mock_location/app/src/main/AndroidManifest.xml:62:13-40
 service#com.example.android.mocklocation.SendMockLocationService
 ADDED from /home/chenwei/workspace/AndroidStudioProjects/mock_location/app/src/main/AndroidManifest.xml:70:9-80:19
-MERGED from /home/chenwei/workspace/AndroidStudioProjects/mock_location/app/src/main/AndroidManifest.xml:70:9-80:19
 	android:enabled
 		ADDED from /home/chenwei/workspace/AndroidStudioProjects/mock_location/app/src/main/AndroidManifest.xml:72:13-35
 	android:exported

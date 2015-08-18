@@ -17,7 +17,7 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     package="com.example.android.mocklocation"
     android:versionCode="2"
-    android:versionName="2.6" >
+    android:versionName="2.6.1" >
 
     <uses-sdk
         android:minSdkVersion="7"
@@ -78,9 +78,6 @@
                 <category android:name="android.intent.category.DEFAULT" />
             </intent-filter>
         </service>
-        
-        
-        
     </application>
 
 </manifest>

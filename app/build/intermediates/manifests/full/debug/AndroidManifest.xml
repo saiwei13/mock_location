@@ -17,20 +17,20 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     package="com.example.android.mocklocation"
     android:versionCode="2"
-    android:versionName="2.6" >
+    android:versionName="2.6.1" >
 
     <uses-sdk
         android:minSdkVersion="7"
         android:targetSdkVersion="18" />
+
+    <uses-permission android:name="android.permission.ACCESS_MOCK_LOCATION" />
     <!--
         To use mock locations, an app must have request the "access mock locations" permission.
         The user accepts this request during installation.
     -->
     <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
     <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
-    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
-    <uses-permission android:name="android.permission.ACCESS_MOCK_LOCATION" />
-
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" /> <!-- <uses-permission android:name="android.permission.ACCESS_MOCK_LOCATION"/> -->
     <!-- Define the application. Allow Android to back up application settings. -->
     <application
         android:allowBackup="true"

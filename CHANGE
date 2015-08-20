@@ -1,0 +1,14 @@
+-----------------------------
+version name : 2.7
+-- 版本回退
+-- 更改package name
+
+-----------------------------
+version name: 2.6
+--将 <uses-permission android:name="android.permission.ACCESS_MOCK_LOCATION"/>
+　移到 src/debug/AndroidManifest.xml下
+
+-----------------------------
+version name: 2.5
+-- 将项目从eclipse 版本转成android studio　版本
+

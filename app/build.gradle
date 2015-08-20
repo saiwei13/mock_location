@@ -5,7 +5,7 @@ android {
     buildToolsVersion "22.0.1"
 
     defaultConfig {
-        applicationId "com.example.android.mocklocation"
+        applicationId "com.saiwei.mocklocation"
         minSdkVersion 7
         targetSdkVersion 18
     }

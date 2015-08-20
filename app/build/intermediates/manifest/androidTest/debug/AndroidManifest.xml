@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="com.example.android.mocklocation.test">
+    package="com.saiwei.mocklocation.test">
 
     <uses-sdk android:minSdkVersion="7" android:targetSdkVersion="18" />
 
@@ -9,8 +9,8 @@
     </application>
 
     <instrumentation android:name="android.test.InstrumentationTestRunner"
-                     android:targetPackage="com.example.android.mocklocation"
+                     android:targetPackage="com.saiwei.mocklocation"
                      android:handleProfiling="false"
                      android:functionalTest="false"
-                     android:label="Tests for com.example.android.mocklocation"/>
+                     android:label="Tests for com.saiwei.mocklocation"/>
 </manifest>

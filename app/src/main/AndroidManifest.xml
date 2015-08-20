@@ -15,9 +15,9 @@
   limitations under the License.
 -->
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="com.example.android.mocklocation"
+    package="com.saiwei.mocklocation"
     android:versionCode="2"
-    android:versionName="2.6.1" >
+    android:versionName="2.7" >
 
     <uses-sdk
         android:minSdkVersion="7"
@@ -42,7 +42,7 @@
 
         <!-- Define the main activity. The name is prepended with the app's package name -->
         <activity
-            android:name=".MainActivity"
+            android:name="com.saiwei.mocklocation.MainActivity"
             android:label="@string/app_name"
             android:launchMode="singleTask" >
             <intent-filter>
@@ -59,7 +59,7 @@
 
         
         <activity
-            android:name=".FileManager"
+            android:name="com.saiwei.mocklocation.FileManager"
             android:label="@string/app_name" >
         </activity>
         
@@ -68,7 +68,7 @@
             This service is enabled, but it is only visible within the app
         -->
         <service
-            android:name="SendMockLocationService"
+            android:name="com.saiwei.mocklocation.SendMockLocationService"
             android:enabled="true"
             android:exported="false"
             android:icon="@drawable/ic_launcher" >
